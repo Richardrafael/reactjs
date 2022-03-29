@@ -13,4 +13,5 @@ export const AreaFooter = styled.div`
 
 
 
+
 `;

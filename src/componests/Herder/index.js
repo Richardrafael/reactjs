@@ -7,15 +7,17 @@ function Herder() {
             <div className ="container" >
                 <div className="menu"> 
                     <button className="esc ca"> HOME</button>
-                    <button className="esc ca">dss</button>
-                    <button className="esc ca">CF</button>
-                    <button className="esc ca"> ds</button>
-                    <button className="esc ca"> 545454</button>
-                    <button className="esc ca"> sjkjs</button>
-                    <button className="esc ca"> snjsnkks</button>
-                    <button className="esc ca"> 745sasa</button>
-                    <button className="esc ca"> sajiajij</button>
-                    <button className="sair"> sajiajij</button>
+                    <button className="esc ca">cadastro conta</button>
+                    <button className="esc ca">Cadastro de unidade</button>
+                    <button className="esc ca"> cadastro de contrato</button>
+                    <button className="esc ca"> cadastro de concessionaria</button>
+                    <button className="esc ca"> relatorios</button>
+                    <button className="esc ca"> painel de controle</button>
+                    <button className="esc ca"> quadro de contratos</button>
+                    <button className="esc ca"> quadro de concessionarias</button>
+                    <button className="esc ca"> Alerta</button>
+                    <button className="esc ca"> logs</button>
+                    <button className="sair"> sair</button>
 
                 </div>
             </div>
@@ -27,9 +29,6 @@ function Herder() {
 
 
         </nav> 
-
-
-        <button>cadastrar</button>
        </AreaHeader>
     )
 }
