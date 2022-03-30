@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const AreaHeader = styled.div`
 position: absolute;
-width: 270px;
 height: 920.44px;
+width: 20%;
 
 background: #1DD9B1;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
@@ -67,12 +67,6 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
         color: blue;
       }
       
-      /* cor do fundo quando clica na seta */
-      .active {
-        background-color: #1DD9B1;
-        color: black;
-      }
-      
       /* cor do fundo  */
       .dropdown-container {
         display: none;
@@ -87,16 +81,6 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
       }
       .dropdown-btn img {
         margin-left: 35px;
-      }
-      
-      
-      /* Margem para o conteudo ficar visivel */
-      section {
-        display: flex;
-        flex-direction: column;
-        padding: 20px;
-      
-        flex-grow: 1;
       }
       #select {
         color: black;
@@ -142,17 +126,11 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
 
 
 }
-    .logo{
-        flex: 1;
 
-        img{
-            width: 45px;
-        }
-    }
     .esc {
         padding: 6px 8px 6px 16px;
         text-decoration: none;
-        font-size: 20px;
+        font-size: 17px;
         color: black;
         display: block;
         border: none;
@@ -162,37 +140,6 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
         cursor: pointer;
         outline: none;
         margin-bottom: 20px;
-    }
-        .bi-house{ 
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            padding: 0px 16px;
-            position: absolute;
-            width: 208.59px;
-            height: 40px;
-    }
-    .dropdown-btn {
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
-    }
-
-    .container {
-        display: flex;
-    }
-
-    .menu{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: #1DD9B1;
-        position: sticky;
-        top: 70px;
-        width: 280px;
-        height: 135vh;
-        font-family: sans-serif;
-        padding: 25px 20px;
     }
 
     #select {

@@ -4,100 +4,87 @@ function Form(){
     return(
         <AreaForm>
        <div>
-      <h1 className="h">Promo Show</h1>
+      <h1 className="h">Conta de agua</h1>
 
-      <form >
+      <form className = "cliente">
         <div>
-          <input id="title" name="title" type="text"  />
+          <input id="fornecimento" name="Fornecimento" type="text" placeholder="Fornecimento" />
         </div>
         <div >
-          <input id="url" name="url" type="text"  />
+          <input id="CNPJ" name="CNPJ" type="number" placeholder="CNPJ" />
         </div>
         <div >
-          <input id="title" name="title" type="text"  />
+          <input id="CPF" name="CPF" type="number" placeholder="CPF" />
         </div>
         <div >
-          <input id="price" name="price" type="number"  />
-        </div>
-        <div>
-          <input id="title" name="title" type="text"  />
-        </div>
-        <div >
-          <input id="url" name="url" type="text"  />
-        </div>
-        <div >
-          <input id="title" name="title" type="text"  />
-        </div>
-        <div >
-          <input id="price" name="price" type="number"  />
+          <input id="economias" name="economias" type="number" placeholder="Economias"  />
         </div>
         <div>
+          <input id="condicao" name="codicao" type="number"  placeholder="Condição"/>
+        </div>
+        <div >
+          <input id="VtAgua" name="VtAgua" type="number" placeholder="Valor total da água "  />
+        </div>
+        <div >
+          <input id="multa" name="multa" type="number" placeholder="Multa" />
+        </div>
+        <div >
+          <input id="valortributos" name="valortributos" type="number" placeholder="Valor tributos" />
+        </div>
         <div>
-          <input id="title" name="title" type="text"  />
+        <div>
+          <input id="concessionaria" name="concessionaria" type="text" placeholder="Concessionaria " />
         </div>
         <div >
-          <input id="url" name="url" type="text"  />
+          <input id="documento" name="documento" type="number" placeholder="Documento"  />
         </div>
         <div >
-          <input id="title" name="title" type="text"  />
+          <input id="nome" name="nome" type="text" placeholder="Nome cliente " />
         </div>
         <div >
-          <input id="price" name="price" type="number"  />
+          <input id="dataapre" name="dataapr" type="date"  placeholder="Data Apresentação"/>
         </div>
         <div >
-          <input id="url" name="url" type="text"  />
+          <input id="consumo" name="consumo" type="number" placeholder="Consumo" />
         </div>
         <div >
-          <input id="title" name="title" type="text"  />
+          <input id="Vlesgoto" name="Vlesgoto" type="number" placeholder="Valor total esgoto" />
         </div>
         <div >
-          <input id="price" name="price" type="number"  />
+          <input id="jurosm" name="jurosm" type="number" placeholder="Juros Moradia" />
         </div>
         <div >
-          <input id="url" name="url" type="text"  />
+          <input id="Vt" name="Vt" type="number" placeholder="Valor Total" />
         </div>
         <div >
-          <input id="title" name="title" type="text"  />
+          <input id="dataemi" name="dataemi" type="date" placeholder="Data de Emissão"  />
         </div>
         <div >
-          <input id="price" name="price" type="number"  />
+          <input id="proximaleitura" name="proximaleitura" type="number" placeholder="Proxima leitura" />
         </div>
         <div >
-          <input id="url" name="url" type="text"  />
+          <input id="PConsumo" name="PConsumo" type="data" placeholder="Periodo de Consumo" />
         </div>
         <div >
-          <input id="title" name="title" type="text"  />
+          <input id="VtConsumo" name="VtConsumo" type="number" placeholder="Valor total de Consumo" />
         </div>
         <div >
-          <input id="price" name="price" type="number"  />
+          <input id="taxa" name="taxa" type="number" placeholder="Taxa de Regulação" />
         </div>
         <div >
-          <input id="url" name="url" type="text"  />
+          <input id="datavencimento" name="datavencimento" type="data" placeholder="Data de Vencimento"  />
         </div>
         <div >
-          <input id="title" name="title" type="text"  />
+          <input id="TLigação" name="TLigação" type="text" placeholder="Taxa de ligação" />
         </div>
         <div >
-          <input id="price" name="price" type="number"  />
+          <input id="MediaConsumo" name="MediaConsumo" type="number"  placeholder="Media de Consumo" />
         </div>
-        <div >
-          <input id="url" name="url" type="text"  />
-        </div>
-        <div >
-          <input id="title" name="title" type="text"  />
-        </div>
-        <div >
-          <input id="price" name="price" type="number"  />
-        </div>
-        <div >
-          <input id="url" name="url" type="text"  />
-        </div>
-        <div >
-          <input id="title" name="title" type="text"  />
-        </div>
+    
        
           
-          <button type="submit">Salvar</button>
+          <button type="submit">Enviar</button>
+          <button type="submit">UPLOAD DA CONTA</button>
         </div>
       </form>
     </div>
