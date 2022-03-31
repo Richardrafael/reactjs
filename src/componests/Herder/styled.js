@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const AreaHeader = styled.div`
 position: absolute;
-height: 920.44px;
+height: 135vh;
 width: 20%;
 
 background: #1DD9B1;

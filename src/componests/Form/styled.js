@@ -5,22 +5,21 @@ position: static;
 float: right;
 width: 80%;
 height: 135vh;
-background: #FFFFFF;
+background: ffff;
 
 
-.h{
-    background-color: ffff;
-    text-align : center;
-    padding : 10px;
-    font-size : 20px;
-    position: fixed;
-    width: 100%;
+.titulo{
+  font-weight: 400;
+  text-align: center;
+  font-style: normal;
+  font-size: 20px;
+  margin: 10px 0px ;
 }
-.cliente{
+.conta_agua{
 display: flex;
 align-items: center;
-// flex-direction: column;
-margin: 30px 0px 90px;
+flex-direction: column;
+margin: 1px 0px 0px;
 }
 #fornecimento,
 #CNPJ,
@@ -46,16 +45,16 @@ margin: 30px 0px 90px;
 #TLigação,
 #MediaConsumo,
 #dataapre {
-  height: 35px;
-  width: 250px;
+  height: 27px;
+  width: 230px;
   border: none;
   border-radius: 5px;
   background-color: #e1e1e1;
-  flex-direction: row-reverse;
-  padding: 4px;
+  padding: 2px;
 }
 
 /* botão - cadastrar */
+#upload,
 #botao_cad {
   width: 150px;
   height: 30px;
@@ -67,6 +66,7 @@ margin: 30px 0px 90px;
   font-size: 16px;
   cursor: pointer;
 }
+#upload:hover,
 #botao_cad:hover {
   background: #22334d;
   box-shadow: #22334d;
@@ -77,11 +77,18 @@ margin: 30px 0px 90px;
 .bt-container {
   display: flex;
   align-items: center;
-  flex-direction: column;
-  margin: 30px 0px 90px;
+  margin: 30px 0px 0px;
 }
 #tab_cadastro {
   display: flex;
   justify-content: center;
+}
+
+fieldset {
+  border: 0;
+}
+
+fieldset.grupo .campo {
+  float:  left;
 }
 `;
